@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="av.jpg" />
+    <None Remove="dawid.png" />
+    <None Remove="dongi.jpg" />
+    <None Remove="gocha.jpg" />
+    <None Remove="marceli.png" />
+    <None Remove="xd 2.png" />
+    <None Remove="xd.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Albumy\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="av.jpg" />
+    <Resource Include="dawid.png" />
+    <Resource Include="dongi.jpg" />
+    <Resource Include="gocha.jpg" />
+    <Resource Include="marceli.png" />
+    <Resource Include="xd 2.png" />
+    <Resource Include="xd.png" />
+  </ItemGroup>
+
+</Project>
